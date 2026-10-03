@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="png/img" href="weblogo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <title>Certo</title>
+</head>
+<body>
+
+<header id="home">
+    <nav class="navbar">
+        <a href="#home" class="navbar__logo">
+            <img src="logo.png" alt="Certo">
+            <span>Certo</span>
+        </a>
+
+        <ul class="navbar__menu">
+            <li><a href="#reviews">iPhone</a></li>
+            <li><a href="#reviews">Android</a></li>
+            <li><a href="#help">Help</a></li>
+            <li class="navbar__dropdown">
+                <button class="navbar__dropdown-toggle" aria-expanded="false">
+                    Company <i class="fa-solid fa-chevron-down"></i>
+                </button>
+                <ul class="navbar__dropdown-menu">
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Our story</a></li>
+                    <li><a href="#">Insights</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </li>
+        </ul>
+
+        <button class="navbar__cta" id="authBtn">Sign Up</button>
+    </nav>
+
+    <div class="hero">
+        <div class="hero__text">
+            <h1>Your mobile privacy <br>is our mission</h1>
+            <p>Think your phone has been hacked? Our trusted apps make it easy for you to scan, detect and remove threats from your iPhone and Android devices.</p>
+
+            <div class="hero__actions">
+                <a href="https://apps.apple.com/us/app/certo-mobile-security/id1274429896" class="btn btn--primary">Get Certo for iPhone <span>&rarr;</span></a>
+                <a href="https://play.google.com/store/apps/details?id=com.certo.android&hl=uz" class="btn btn--ghost">Get Certo for Android</a>
+            </div>
+        </div>
+
+        <div class="hero__media">
+            <img src="homeimg.png" alt="Certo App">
+        </div>
+    </div>
+</header>
+
+<main>
+
+    <section class="reviews" id="reviews">
+        <div class="container">
+            <h2 class="section-title">Loved by thousands of iPhone <br>and Android users alike</h2>
+
+            <div class="reviews__grid">
+                <article class="review-card">
+                    <div class="review-card__stars">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <p>Does exactly what it says. Clear to read and understand. This is now the second iPhone we've used it on and would certainly recommend this app.</p>
+                    <span class="review-card__user">colinandmandy94</span>
+                </article>
+
+                <article class="review-card">
+                    <div class="review-card__stars">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <p>Love the ease and efficiency. Awesome app. Very informative and insightful if wanting to know more about your device. The added breach check is a great bonus. Sweet tool. Love it highly recommend.</p>
+                    <span class="review-card__user">Jennifer Black</span>
+                </article>
+
+                <article class="review-card">
+                    <div class="review-card__stars">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <p>This app is good if you need to identify certain vulnerabilities on your iPhone. If you have any issues, their customer service was quite helpful and responsive.</p>
+                    <span class="review-card__user">Phillip Colligan</span>
+                </article>
+
+                <article class="review-card">
+                    <div class="review-card__stars">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <p>I was worried about my privacy, but this app gave me peace of mind. It quickly scanned my phone and found nothing suspicious. Highly recommended!</p>
+                    <span class="review-card__user">Sarah Mitchell</span>
+                </article>
+
+                <article class="review-card">
+                    <div class="review-card__stars">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <p>Great app for detecting spyware. Simple, effective, and the support team is quick to respond. Worth every penny for the security it provides.</p>
+                    <span class="review-card__user">David Thompson</span>
+                </article>
+
+                <article class="review-card">
+                    <div class="review-card__stars">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <p>Best mobile security app I've used so far. The UI is clean and the scans are fast. Customer service went above and beyond to help me.</p>
+                    <span class="review-card__user">Laura Bennett</span>
+                </article>
+            </div>
+        </div>
+
+        <div class="brands">
+            <div class="brands__track">
+
+            </div>
+            <div class="brands__title">Featured in:</div>
+        </div>
+    </section>
+
+    <section class="features" id="help">
+        <div class="container">
+            <h2 class="section-title section-title--center">Get your freedom back, stop mobile <br>spyware today</h2>
+
+            <div class="features__grid">
+                <div class="feature">
+                    <img src="help1.png" alt="">
+                    <h3>Spyware detection</h3>
+                    <p>Our advanced spyware detection engine can identify if a device contains spyware or bugging software.</p>
+                </div>
+                <div class="feature">
+                    <img src="help2.png" alt="">
+                    <h3>Keylogger detection</h3>
+                    <p>Find malicious keyboards installed on your device that could allow someone to record things you type (e.g. passwords).</p>
+                </div>
+                <div class="feature">
+                    <img src="help3.png" alt="">
+                    <h3>Find tracking apps</h3>
+                    <p>Check which apps can access your location, microphone or camera. Get alerted if a known tracking app is installed.</p>
+                </div>
+                <div class="feature">
+                    <img src="help4.png" alt="">
+                    <h3>OS integrity check</h3>
+                    <p>Our advanced spyware detection engine can identify if a device contains spyware or bugging software.</p>
+                </div>
+                <div class="feature">
+                    <img src="help5.png" alt="">
+                    <h3>Threat removal</h3>
+                    <p>Our intelligent scan will either safely remove threats for you or provide easy-to-follow instructions.</p>
+                </div>
+                <div class="feature">
+                    <img src="help6.png" alt="">
+                    <h3>Easy to use</h3>
+                    <p>We create easy to use apps that can check your device for vulnerabilities in a matter of minutes.</p>
+                </div>
+            </div>
+
+            <div class="features__actions">
+                <a href="#" class="btn btn--primary">Get Certo for iPhone <span>&rarr;</span></a>
+                <a href="#" class="btn btn--ghost">Get Certo for Android</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="promo">
+        <div class="container">
+            <div class="promo__grid">
+                <div class="promo-card promo-card--accent">
+                    <div>
+                        <h2>Read our story</h2>
+                        <p>Find out why thousands trust Certo to secure their mobile world.</p>
+                    </div>
+                    <a href="#" class="btn btn--dark">About us <span>&rarr;</span></a>
+                </div>
+
+                <div class="promo-card promo-card--light">
+                    <div>
+                        <h2>Help Center</h2>
+                        <p>Help topics, getting started guides and FAQs.</p>
+                    </div>
+                    <a href="#" class="btn btn--outline" id="kelp">Visit help center</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="container">
+            <h2>Is someone spying on your phone?</h2>
+            <p>Find out with Certo</p>
+            <div class="cta__actions">
+                <a href="#" class="btn btn--primary">Get Certo for iPhone <span>&rarr;</span></a>
+                <a href="#" class="btn btn--white">Get Certo for Android</a>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer__grid">
+            <div class="footer__col">
+                <h3 class="footer__tagline">Scan. Detect. Remove.</h3>
+                <div class="footer__socials">
+                    <a href="#" class="social"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#" class="social"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="social"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+                <div class="footer__links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+                <p class="footer__copy">
+                    Copyright © 2022 Certo Software Limited | Registered in England & Wales No. 10072356<br>
+                    Designed & developed by Bigger Picture
+                </p>
+            </div>
+
+            <div class="footer__col">
+                <h2 class="footer__logo">Certo</h2>
+                <ul class="footer__nav">
+                    <li><a href="#"><span>—</span> iPhone</a></li>
+                    <li><a href="#"><span>—</span> Android</a></li>
+                    <li><a href="#"><span>—</span> Help</a></li>
+                    <li><a href="#"><span>—</span> About</a></li>
+                    <li><a href="#"><span>—</span> Insights</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__col">
+                <div class="newsletter">
+                    <h3>Sign up to our newsletter</h3>
+                    <p>Receive the latest mobile security news, exclusive discounts & offers straight to your inbox!</p>
+                    <form class="newsletter__form">
+                        <input type="email" placeholder="Email address" required>
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <p class="footer__disclaimer">
+            Apple, the Apple logo, and iPhone are trademarks of Apple Inc., registered in the U.S. and other countries. App Store is a service mark of Apple Inc. Android, Google Play and the Google Play logo are trademarks of Google LLC.
+        </p>
+    </div>
+</footer>
+
+<div class="modal" id="signupModal" aria-hidden="true">
+    <div class="modal__overlay" data-close></div>
+    <div class="modal__content" role="dialog" aria-modal="true">
+        <button class="modal__close" data-close aria-label="Close">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+
+        <div class="modal__header">
+            <h2>Create your account</h2>
+            <p>Join thousands protecting their mobile privacy</p>
+        </div>
+
+        <form class="modal__form" id="signupForm" novalidate>
+            <div class="form-field">
+                <label for="email">Email address</label>
+                <input type="email" id="email" name="email" placeholder="email" required>
+                <span class="form-error" data-error="email"></span>
+            </div>
+
+            <div class="form-field">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="password" required>
+                <span class="form-error" data-error="password"></span>
+            </div>
+
+            <button type="submit" class="btn btn--primary modal__submit">Create account</button>
+        </form>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
